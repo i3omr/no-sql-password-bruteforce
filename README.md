@@ -47,7 +47,7 @@ def try_password_regex(prefix):
                 print(f"[+] Found character {i+1}: {char} => {password}")
                 break
 ```
-I was redirected to /?err=1 if the character was wrong.
+I was redirected to `/?err=1` if the character was wrong.
 
 
 Good Luck!
