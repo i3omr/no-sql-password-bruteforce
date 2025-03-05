@@ -1,11 +1,11 @@
 # no-sql-password-bruteforce
 With the help of chatgpt, I made a script that bruteforces the password of a no sql application while doing a THM lab (https://tryhackme.com/room/nosqlinjectiontutorial)
 
-![image](https://github.com/user-attachments/assets/8bba6b55-838a-48dd-8932-b967826975df)
+![image](https://github.com/user-attachments/assets/f0101684-605d-4185-b2b7-0c58191c93e6)
 
 After running the script
 
-![image](https://github.com/user-attachments/assets/4cf5bd05-13dc-4f79-aa9d-b3174446caef)
+![image](https://github.com/user-attachments/assets/5d6b0b3e-ce42-44e3-9eb2-caf134330193)
 
 # What to do first
 
