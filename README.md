@@ -49,5 +49,8 @@ def try_password_regex(prefix):
 ```
 I was redirected to `/?err=1` if the character was wrong.
 
+# How to run?
+
+just use `python3 nosqlbruteforce.py`
 
 Good Luck!
